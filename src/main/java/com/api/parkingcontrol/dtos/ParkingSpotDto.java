@@ -11,14 +11,13 @@ public class ParkingSpotDto {
 
     @NotBlank
     @Size(max=7)
-    @Email
     private String licensePlateCar;
 
     @NotBlank
     private String brandCar;
 
     @NotBlank
-    private String modedlCar;
+    private String modelCar;
 
     @NotBlank
     private String colorCar;
@@ -57,12 +56,12 @@ public class ParkingSpotDto {
         this.brandCar = brandCar;
     }
 
-    public String getModedlCar() {
-        return modedlCar;
+    public String getModelCar() {
+        return modelCar;
     }
 
-    public void setModedlCar(String modedlCar) {
-        this.modedlCar = modedlCar;
+    public void setModelCar(String modelCar) {
+        this.modelCar = modelCar;
     }
 
     public String getColorCar() {
